@@ -46,7 +46,7 @@ display: flex;
 flex-direction: row;
 justify-content: space-around;
 align-items: center;
-height: 7vh;  
+height: 7vh; 
 }
 .menu__title{
     font-family: 'Raleway';
@@ -221,6 +221,7 @@ section.skills{
     margin-bottom: 1.4vw;
 }
 .skills__box:hover{
+    cursor:pointer;
     background:rgb(247, 165, 53);
     border-radius: 1em;
     box-shadow: 3px 5px 3px #464646;
@@ -263,6 +264,7 @@ section.hobbies{
     margin-bottom: 1.4vw;
 }
 .hobbies__box:hover{
+    cursor: pointer;
     background: rgb(247, 165, 53);
     border-radius: 1em;
     box-shadow: 3px 5px 3px #464646;
@@ -384,6 +386,7 @@ section.experience{
     width: 30vw;
 }
 .experiencia_boton_repo{
+    cursor: pointer;
     box-sizing: border-box;
     border-color: #4e1c15b0;
     color: #5b0e2d;
@@ -393,6 +396,7 @@ section.experience{
     width: 13vw;   
 }
 .experiencia_boton_demo{
+    cursor: pointer;
     box-sizing: border-box;
     background: #5b0e2d;
     color: #dedfe7;
@@ -475,6 +479,7 @@ section .formcontacto{
     transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
 }
 .formcontacto__boton:hover{
+    cursor: pointer;
     box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
     box-shadow: 10px 15px 10px #575766;
     outline-color: rgba(49, 138, 172, 0);
