@@ -352,11 +352,15 @@ section.experience{
     height: 10%;
     margin:0% 5% 0% 5%;
 }
-.experience__box .img4,.experience__box .img5{
+.experience__box .img6 ,.experience__box .img7{
     width: 18vw;
-    height: 26vw;
+    height: 26vw;    
     margin:0% 5% 0% 5%;
 }
+.experience__box .img4, .experience__box .img5{
+    margin:4% 5% 0% 5%;
+}
+
 .experience__info{
     width: 40%;
     text-align: left;
@@ -366,7 +370,7 @@ section.experience{
     font-size: 1.5vw;
     font-weight:500;     
 }
-.info2, .info6, .info4, .info8{
+.info2, .info6, .info4, .info8, .info10{
     order: -1;
     margin-left:5%;     
 }
